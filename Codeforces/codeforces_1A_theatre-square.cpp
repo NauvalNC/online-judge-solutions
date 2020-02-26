@@ -12,7 +12,6 @@ int main()
     while(x * a < n) x++;
     
     int y = m / a;
-    y = ceil(y);
     while (y * a < m) y++;
     
     res = x * y;
